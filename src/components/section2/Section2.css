@@ -1,0 +1,52 @@
+.section-2-main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+}
+
+.water-mark {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.water-mark h1 {
+    font-size: 10vw;
+    margin: 0 0 0 2.5%;
+    color: #b2b2b236;
+    font-weight: 400;
+}
+
+.about-me-content-container {
+    position: absolute;
+    height: 70vh;
+    width: 70vw;
+    background-color: #ffffff12;
+    z-index: 1;
+    border-radius: 10px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-me-content-container p {
+    margin: 0 10% 0 10%;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: justify;
+    line-height: 2;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 780px) {
+    .about-me-content-container p {
+        margin: 0 10% 0 10%;
+        font-size: 12.5px;
+        font-weight: 300;
+        text-align: justify;
+        line-height: 2;
+        color: #ffffff;
+    }
+}
